@@ -115,6 +115,7 @@ fetch('data.json')
     .then(json => {
         statusActive(daily, weekly, monthly)
         mostrarDaily(json);
+        displayPrevious(everyDaily, everyMonthly, everyWeekly);
         daily.addEventListener("click", (e) => {
             statusActive(daily, weekly, monthly)
             displayPrevious(everyDaily, everyMonthly, everyWeekly);
