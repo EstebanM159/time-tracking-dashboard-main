@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Time tracking dashboard</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="contenedor-principal">
+    <div class="card">
+      <div class="bg">
+        <img src="images/image-jeremy.png" alt="foto persona">
+        <div class="text">
+          <p>Report for</p>
+          <h1>Jeremy Robson</h1>
+        </div>
+      </div>
+      <div class="status">
+        <a href="#" class="daily">Daily</a>
+        <a href="#" class="weekly">Weekly</a>
+        <a href="#" class="monthly">Monthly</a>
+      </div>
+    </div>
+    <div class="card-container">
+      <div class="card-bg-work">
+        <div class="card-info">
+          <div class="name-menu">
+            <h1>Work</h1>
+            <img src="images/icon-ellipsis.svg" alt="">
+          </div>
+          <div class="info-horas">
+            <span id="work" class="current"></span>
+            <p class="previous-d">Last Day -<span class="previous"></span></p>
+            <p class="previous-w">Last Week -<span class="previous"></span></p>
+            <p class="previous-m">Last Month -<span class="previous"></span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card-container">
+      <div class="card-bg-play">
+        <div class="card-info">
+          <div class="name-menu">
+            <h1>Play</h1>
+            <img src="images/icon-ellipsis.svg" alt="">
+          </div>
+          <div class="info-horas">
+            <span id="play" class="current"></span>
+            <p class="previous-d">Last Day -<span class="previous"></span></p>
+            <p class="previous-w">Last Week -<span class="previous"></span></p>
+            <p class="previous-m">Last Month -<span class="previous"></span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card-container">
+      <div class="card-bg-study">
+        <div class="card-info">
+          <div class="name-menu">
+            <h1>Study</h1>
+            <img src="images/icon-ellipsis.svg" alt="">
+          </div>
+          <div class="info-horas">
+            <span id="study" class="current"></span>
+            <p class="previous-d">Last Day -<span class="previous"></span></p>
+            <p class="previous-w">Last Week -<span class="previous"></span></p>
+            <p class="previous-m">Last Month -<span class="previous"></span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="card-container">
+      <div class="card-bg-excercise">
+        <div class="card-info">
+          <div class="name-menu">
+            <h1>Excercise</h1>
+            <img src="images/icon-ellipsis.svg" alt="">
+          </div>
+          <div class="info-horas">
+            <span id="exercise" class="current"></span>
+            <p class="previous-d">Last Day -<span class="previous"></span></p>
+            <p class="previous-w">Last Week -<span class="previous"></span></p>
+            <p class="previous-m">Last Month -<span class="previous"></span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card-container">
+      <div class="card-bg-social">
+        <div class="card-info">
+          <div class="name-menu">
+            <h1>Social</h1>
+            <img src="images/icon-ellipsis.svg" alt="">
+          </div>
+          <div class="info-horas">
+            <span id="social" class="current"></span>
+            <p class="previous-d">Last Day -<span class="previous"></span></p>
+            <p class="previous-w">Last Week -<span class="previous"></span></p>
+            <p class="previous-m">Last Month -<span class="previous"></span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="card-container">
+      <div class="card-bg-selfcare">
+        <div class="card-info">
+          <div class="name-menu">
+            <h1>Selfcare</h1>
+            <img src="images/icon-ellipsis.svg" alt="">
+          </div>
+          <div class="info-horas">
+            <span id="selfcare" class="current"></span>
+            <p class="previous-d">Last Day -<span class="previous"></span></p>
+            <p class="previous-w">Last Week -<span class="previous"></span></p>
+            <p class="previous-m">Last Month -<span class="previous"></span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
