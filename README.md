@@ -1,0 +1,1 @@
+¡Bienvenidos al proyecto "Panel de Seguimiento de Tiempo" desarrollado como parte del desafío de FrontendMentor.io! En esta aplicación, he creado un panel interactivo que permite realizar un seguimiento del tiempo, utilizando tecnologías web como HTML, CSS y JavaScript. Los datos necesarios se extraen de un archivo JSON, lo que proporciona una experiencia práctica y realista.
